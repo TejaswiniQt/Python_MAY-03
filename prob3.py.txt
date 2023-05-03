@@ -1,0 +1,10 @@
+'''
+3.shuffle the string using any explam 
+'''
+
+str1 = input("enter string  ")
+shuffle_str = " "
+for index in range (len(str1)):
+    n = int(input("enter number :"))
+    shuffle_str += str1[n]
+print(shuffle_str)
